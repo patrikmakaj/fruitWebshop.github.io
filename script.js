@@ -3,12 +3,12 @@
 let walletAmount = 50;
 
 let items = [
-    { name: 'Apple', price: 1.99, imageUrl: "images/apple.png" },
-    { name: 'Banana', price: 0.99, imageUrl: "images/banana.png" },
-    { name: 'Orange', price: 2.49, imageUrl: "images/orange.png" },
-    { name: 'Strawberry', price: 3.12, imageUrl: "images/strawberry.png" },
-    { name: 'Pineapple', price: 2.99, imageUrl: "images/pineapple.png" },
-    { name: 'Watermelon', price: 4.99, imageUrl: "images/watermelon.png" }
+    { name: 'Apple', price: 1.99, imageUrl: "apple.png" },
+    { name: 'Banana', price: 0.99, imageUrl: "banana.png" },
+    { name: 'Orange', price: 2.49, imageUrl: "orange.png" },
+    { name: 'Strawberry', price: 3.12, imageUrl: "strawberry.png" },
+    { name: 'Pineapple', price: 2.99, imageUrl: "pineapple.png" },
+    { name: 'Watermelon', price: 4.99, imageUrl: "watermelon.png" }
 ];
 
 
