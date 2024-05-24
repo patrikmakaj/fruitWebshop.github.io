@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Web Shop</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Web Shop</h1>
+    <div class="wallet-container">
+      <p>Wallet Balance: $<span id="walletAmount">50.00</span></p>
+    </div>
+
+    <div class="cart-container">
+      <button class="cart-button" id="cartButton">Cart <span class="cart-badge" id="cartCount">0</span></button>
+      <div id="message" class="message"></div>
+    </div>
+
+    <div class="sort-buttons">
+      <button id="sortButton">Sort by Price (Ascending)</button>
+  </div>  
+
+    <div class="items-grid" id="itemsGrid">
+    </div>
+
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <h2>Cart</h2>
+        <ul class="cart-items" id="cartItems"></ul>
+        <p>Total: <span class="cart-total" id="cartTotal">$0.00</span></p>
+        <button class="buy-btn" id="buyButton">Buy</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
